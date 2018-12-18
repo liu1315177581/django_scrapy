@@ -1,0 +1,1 @@
+{"error": 400, "description": "Error happened while executing Lua script", "info": {"error": "<name> expected near '/'", "line_number": 5, "source": "[string \"function main(splash, args) ...\"]", "type": "LUA_INIT_ERROR", "message": "[string \"function main(splash, args) ...\"]:5: <name> expected near '/'"}, "type": "ScriptError"}

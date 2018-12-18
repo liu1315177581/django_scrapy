@@ -1,0 +1,10 @@
+{
+    "headers": {
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en",
+        "Referer": "http://www.k2938.com/type/1.html",
+        "User-Agent": "Scrapy/1.5.1 (+https://scrapy.org)"
+    },
+    "lua_source": "\n                    --splash.response_body_enabled = true\n                    splash.private_mode_enabled = false\n                    splash:set_user_agent(\"Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3282.186 Safari/537.36\")\n                    assert(splash:go(http://www.k2938.com/show/46525.html))\n                    splash:wait(3)\n                    return {html = splash:html()}\n                ",
+    "url": "http://www.k2938.com/show/46525.html"
+}

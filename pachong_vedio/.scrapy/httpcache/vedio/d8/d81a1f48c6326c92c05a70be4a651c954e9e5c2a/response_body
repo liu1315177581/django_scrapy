@@ -1,0 +1,1 @@
+{"error": 400, "description": "Error happened while executing Lua script", "info": {"error": "unexpected symbol near '['", "line_number": 1, "source": "[string \"function main(splash, args) ['\\n             ...\"]", "type": "LUA_INIT_ERROR", "message": "[string \"function main(splash, args) ['\\n             ...\"]:1: unexpected symbol near '['"}, "type": "ScriptError"}
